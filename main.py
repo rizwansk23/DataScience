@@ -1,5 +1,6 @@
-from DataCleaning import read_file,Min_Max_Scaler,Standardition,Label_Encoder,One_hot
+from DataCleaning import read_file,Min_Max_Scaler,Standardition,Label_Encoder,One_hot,Hypothesis_teting
 from pandas import read_csv
+
 def main():
     print("Normal Data")
     Column_name = ['Class','Alcohol_level','Malic_acid']
@@ -13,4 +14,6 @@ def main():
     
 
 if __name__ == "__main__":
-    main()
+    # main()
+    Hypothesis_teting()
+    
