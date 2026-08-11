@@ -2,6 +2,24 @@ from numpy import sqrt
 from scipy import  stats
 
 def z_test():
+    # print("H0 : Tire Average => 50000")
+    # print("H1 : Sleep Time < 50000")
+    # x = 46500
+    # u = 50000
+    # psd = 8000
+    # n = 28
+    # dof = n-1
+    # sl = 0.05
+    # z = (x-u)/(psd/np.sqrt(n))
+
+    # p = stats.norm.cdf(z)
+    # print(p)
+    # if p > sl:
+    #     print("Null Hypothesis Wins\n")
+    # else :
+    #     print("Alternate Hypothesis Wins\n")
+
+
     
     x=18.1
     u=19

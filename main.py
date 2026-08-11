@@ -1,4 +1,4 @@
-from DataCleaning import read_file,Min_Max_Scaler,Standardition,Label_Encoder,One_hot,Hypothesis_teting
+from DataCleaning import read_file,Min_Max_Scaler,Standardition,Label_Encoder,One_hot,Hypothesis_teting,chisquare
 from pandas import read_csv
 
 def main():
@@ -15,5 +15,7 @@ def main():
 
 if __name__ == "__main__":
     # main()
-    Hypothesis_teting()
+    # Hypothesis_teting()
+    # z_test()
+    chisquare()
     
