@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-df = pd.read_csv("College.csv")
+df = pd.read_csv("Data/College.csv")
 Vesasc = np.array(df['Vesasc'])
 Nga = np.array(df['Nga'])
 Bt = np.array(df['Bt'])
@@ -31,4 +31,3 @@ print("P-value :- ", stats.f.sf(F,(k-1),(N-k)))
 
 F,p_value = stats.f_oneway(Vesasc,Nga,Bt)
 print("F Statistics : ",F,"\nP Value : ",p_value)
-    

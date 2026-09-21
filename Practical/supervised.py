@@ -1,5 +1,8 @@
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
+
+
+
 df = pd.read_csv('Data/wine.csv',header=None,usecols=[0,1,2])
 df.columns = ['Class','Alcohol_Level','Malic_Acid']
 print(df)
@@ -19,7 +22,9 @@ print(df)
 # ------------------------- iris --------------------------
 
 
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder 
+
+
 df_iris = pd.read_csv('Data/iris-id.csv')
 print(df_iris)
 

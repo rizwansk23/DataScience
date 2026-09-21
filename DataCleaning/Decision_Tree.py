@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 df=read_csv('Data/salaries.csv')
 le=LabelEncoder()
 df['company1']=le.fit_transform(df['company'])
-df['job1']=le.fit_transform(df['job'])
+df['job1']=le.fit_transform(df['job']) # type: ignore
 df['degree1']=le.fit_transform(df['degree'])
 
 dt=DecisionTreeClassifier()

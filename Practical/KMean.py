@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.cluster import KMeans
 
-df = pd.read_csv("Income.csv")
+df = pd.read_csv("Data/income.csv")
 
 mm = MinMaxScaler()
 df['Age'] = mm.fit_transform(df[['Age']])
