@@ -89,10 +89,10 @@ def Hypothesis_teting():
                 print("Please enter a valid input")
     
 
-def Input(number:int | float) -> float:
+def Input(text:str | float) -> float:
     while True:
         try:
-            input_value = float(input(number))
+            input_value = float(input(text))
             if input_value < 0.0:
                 raise ValueError
             return input_value
